@@ -1,4 +1,9 @@
-{
+{  "routes": [
+    {
+      "route": "/profile*",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
     "navigationFallback": {
         "rewrite": "/index.html"
     }
