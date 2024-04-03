@@ -2,7 +2,33 @@
     {
       "route": "/profile*",
       "allowedRoles": ["authenticated"]
-    }
+    },
+    {
+      "route": "/api/*",
+      "methods": ["GET"],
+      "allowedRoles": ["registeredusers"]
+    },
+    {
+      "route": "/api/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE"],
+      "allowedRoles": ["administrator"],
+      "statusCode": 404,
+      "rewrite": "/.auth/login/github",
+      "redirect": "/deals",
+        "headers": {
+        "cache-control": "must-revalidate, max-age=15770000",
+        "Access-Control-Allow-Origin": "https://example.com",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
+      }
+    },
+    {
+      "route": "/api/*",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/customers/contoso*",
+      "allowedRoles": ["administrator", "customers_contoso"]
+    },
   ],
     "navigationFallback": {
         "rewrite": "/index.html"
