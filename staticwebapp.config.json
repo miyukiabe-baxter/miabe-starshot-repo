@@ -13,13 +13,7 @@
       "methods": ["PUT", "POST", "PATCH", "DELETE"],
       "allowedRoles": ["administrator"],
       "statusCode": 404,
-      "rewrite": "/.auth/login/github",
-      "redirect": "/deals",
-        "headers": {
-        "cache-control": "must-revalidate, max-age=15770000",
-        "Access-Control-Allow-Origin": "https://example.com",
-        "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
-      }
+      "rewrite": "/.auth/login/github"
     },
     {
       "route": "/api/*",
