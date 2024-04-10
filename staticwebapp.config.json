@@ -22,7 +22,7 @@
     {
       "route": "/customers/contoso*",
       "allowedRoles": ["administrator", "customers_contoso"]
-    },
+    }
   ],
     "navigationFallback": {
         "rewrite": "/index.html"
