@@ -4,7 +4,10 @@
       "methods": ["PUT", "POST", "PATCH", "DELETE"],
       "allowedRoles": ["administrator"],
       "statusCode": 404,
-      "rewrite": "/.auth/login/github"
+      "rewrite": "/.auth/login/github",
+       "headers": {
+            "Cache-Control": "public, max-age=604800, immutable"
+        }
     }
   ],
     "navigationFallback": {
