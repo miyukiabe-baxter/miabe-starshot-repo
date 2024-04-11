@@ -1,28 +1,11 @@
 {  "routes": [
     {
-      "route": "/profile*",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/api/*",
-      "methods": ["GET"],
-      "allowedRoles": ["registeredusers"]
-    },
-    {
       "route": "/api/*",
       "methods": ["PUT", "POST", "PATCH", "DELETE"],
       "allowedRoles": ["administrator"],
       "statusCode": 404,
       "rewrite": "/.auth/login/github"
-    },
-    {
-      "route": "/api/*",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/customers/contoso*",
-      "allowedRoles": ["administrator", "customers_contoso"]
-    },
+    }
   ],
     "navigationFallback": {
         "rewrite": "/index.html"
