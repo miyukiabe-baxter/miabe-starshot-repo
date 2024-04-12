@@ -35,14 +35,17 @@
       }
     },
     {
-      "route": "/2-1profile/fromportalonlyroute-edit-okay?",
+      "route": "/2-1profile/editagain",
       "methods": [
         "patch"
       ],
       "rewrite": "/item",
       "statusCode": 200,
+      "allowedRoles": [
+        "anoymous"
+      ],
       "headers": {
-        "editName2": "editValue2"
+        "editName3": "editValue3"
       }
     }
   ],
