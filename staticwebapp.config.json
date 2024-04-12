@@ -35,13 +35,14 @@
       }
     },
     {
-      "route": "/2-1profile/fromportalonlyroute-edit",
+      "route": "/2-1profile/fromportalonlyroute-edit-okay?",
       "methods": [
-        "get"
+        "patch"
       ],
+      "rewrite": "/item",
       "statusCode": 200,
       "headers": {
-        "editName": "editValue"
+        "editName2": "editValue2"
       }
     }
   ],
