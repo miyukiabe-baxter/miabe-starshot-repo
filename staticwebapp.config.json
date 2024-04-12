@@ -50,6 +50,12 @@
     },
     {
       "route": "hi-again"
+    },
+    {
+      "route": "another",
+      "allowedRoles": [
+        "owner"
+      ]
     }
   ],
   "navigationFallback": {
