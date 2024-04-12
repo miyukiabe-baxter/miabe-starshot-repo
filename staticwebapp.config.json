@@ -35,11 +35,14 @@
       }
     },
     {
-      "route": "/2-1profile/fromportalonlyroute",
-      "methods": [],
-      "rewrite": "",
-      "redirect": "",
-      "headers": {}
+      "route": "/2-1profile/fromportalonlyroute-edit",
+      "methods": [
+        "get"
+      ],
+      "statusCode": 200,
+      "headers": {
+        "editName": "editValue"
+      }
     }
   ],
   "navigationFallback": {
