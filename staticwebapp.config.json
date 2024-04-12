@@ -56,6 +56,12 @@
       "allowedRoles": [
         "owner"
       ]
+    },
+    {
+      "route": "another-2",
+      "allowedRoles": [
+        "owner"
+      ]
     }
   ],
   "navigationFallback": {
