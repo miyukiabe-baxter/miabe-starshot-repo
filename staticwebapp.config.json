@@ -47,6 +47,9 @@
       "headers": {
         "editName3": "editValue3"
       }
+    },
+    {
+      "route": "hi"
     }
   ],
   "navigationFallback": {
