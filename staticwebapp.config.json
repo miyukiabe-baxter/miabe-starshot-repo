@@ -52,7 +52,7 @@
       "route": "hi-again"
     },
     {
-      "route": "another",
+      "route": "another-updating?",
       "allowedRoles": [
         "owner"
       ]
