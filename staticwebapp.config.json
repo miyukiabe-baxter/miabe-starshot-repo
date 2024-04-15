@@ -58,7 +58,7 @@
       ]
     },
     {
-      "route": "another-2-updated?toyooyooyo",
+      "route": "another-2-updated?hi",
       "allowedRoles": [
         "owner"
       ]
