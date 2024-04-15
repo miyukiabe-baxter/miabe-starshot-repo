@@ -69,10 +69,21 @@
       ]
     },
     {
-      "route": "another-oh?",
+      "route": "newName",
+      "methods": [
+        "get",
+        "patch"
+      ],
+      "rewrite": "/item/123",
+      "redirect": "/new-url",
+      "statusCode": 201,
       "allowedRoles": [
-        "owner"
-      ]
+        "owner",
+        " admin"
+      ],
+      "headers": {
+        "name1": "value1"
+      }
     }
   ],
   "navigationFallback": {
