@@ -49,7 +49,18 @@
       }
     },
     {
-      "route": "hi-again"
+      "route": "hi-again-yo",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ]
     },
     {
       "route": "another-updating???yes????????no!",
