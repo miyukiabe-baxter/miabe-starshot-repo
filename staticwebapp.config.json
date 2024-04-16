@@ -7,7 +7,7 @@
       ]
     },
     {
-      "route": "/admin/index.html",
+      "route": "/admin/index.html-2",
       "allowedRoles": [
         "administrator"
       ]
