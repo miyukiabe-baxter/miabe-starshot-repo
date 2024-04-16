@@ -16,7 +16,7 @@
       }
     },
     {
-      "route": "/profile/portaladdtest",
+      "route": "/profile/codeEdit",
       "methods": [
         "GET"
       ],
@@ -31,26 +31,6 @@
         "name1": "value1",
         "name2": "value2"
       }
-    },
-    {
-      "route": "/2-1profile/editagain",
-      "methods": [
-        "patch"
-      ],
-      "rewrite": "/item",
-      "statusCode": 200,
-      "allowedRoles": [
-        "anoymous"
-      ],
-      "headers": {
-        "editName3": "editValue3"
-      }
-    },
-    {
-      "route": "codeEditTest5",
-      "methods": [
-        "get"
-      ]
     },
     {
       "route": "newName-codeEditTest",
