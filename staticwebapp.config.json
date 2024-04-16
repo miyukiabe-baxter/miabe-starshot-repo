@@ -1,5 +1,17 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  }
+  },
+  "routes": [
+    {
+      "route": "/profile",
+      "methods": [
+        "get"
+      ],
+      "rewrite": "/item",
+      "headers": {
+        "name1": "value1"
+      }
+    }
+  ]
 }
