@@ -12,6 +12,9 @@
       "headers": {
         "name1": "value1"
       }
+    },
+    {
+      "route": "test"
     }
   ]
 }
