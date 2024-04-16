@@ -14,10 +14,11 @@
       }
     },
     {
-      "route": "test",
+      "route": "test-2",
       "rewrite": "/item",
       "headers": {
-        "name1": "value1"
+        "name1": "value1",
+        "name2": "value2"
       }
     }
   ]
