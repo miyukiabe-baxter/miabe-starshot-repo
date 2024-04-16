@@ -5,8 +5,7 @@
       "methods": [
         "PUT",
         "POST",
-        "PATCH",
-        "DELETE"
+        "PATCH"
       ],
       "allowedRoles": [
         "administrator"
@@ -69,20 +68,11 @@
       ]
     },
     {
-      "route": "newName",
-      "methods": [
-        "get",
-        "patch"
-      ],
+      "route": "newName-codeEditTest",
       "rewrite": "/item/123",
-      "redirect": "/new-url",
       "statusCode": 201,
-      "allowedRoles": [
-        "owner",
-        " admin"
-      ],
       "headers": {
-        "name1": "value1"
+        "name1-codeEdit": "value1-codeEdit"
       }
     }
   ],
