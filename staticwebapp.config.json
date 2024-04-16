@@ -48,7 +48,7 @@
       }
     },
     {
-      "route": "codeEditTest3",
+      "route": "codeEditTest4",
       "methods": [
         "get"
       ]
