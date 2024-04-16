@@ -14,7 +14,7 @@
       }
     },
     {
-      "route": "test-2",
+      "route": "test-2-test",
       "rewrite": "/item",
       "headers": {
         "name1": "value1",
