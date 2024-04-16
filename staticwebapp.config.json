@@ -1,25 +1,5 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  },
-  "routes": [
-    {
-      "route": "/profile-2-edit",
-      "methods": [
-        "get"
-      ],
-      "rewrite": "/item",
-      "headers": {
-        "name1": "value1"
-      }
-    },
-    {
-      "route": "test-2-test",
-      "rewrite": "/item",
-      "headers": {
-        "name1": "value1",
-        "name2": "value2"
-      }
-    }
-  ]
+  }
 }
