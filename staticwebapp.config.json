@@ -4,8 +4,7 @@
       "route": "/api/*",
       "methods": [
         "PUT",
-        "POST",
-        "PATCH"
+        "POST"
       ],
       "allowedRoles": [
         "administrator"
