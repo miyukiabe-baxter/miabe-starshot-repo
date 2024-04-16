@@ -48,7 +48,7 @@
       }
     },
     {
-      "route": "hi-codeEditTest2",
+      "route": "codeEditTest3",
       "methods": [
         "get"
       ]
