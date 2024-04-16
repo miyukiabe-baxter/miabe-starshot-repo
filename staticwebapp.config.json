@@ -48,23 +48,9 @@
       }
     },
     {
-      "route": "hi-again-yo",
+      "route": "hi-codeEditTest2",
       "methods": [
-        "get",
-        "head",
-        "post",
-        "put",
-        "delete",
-        "connect",
-        "options",
-        "trace",
-        "patch"
-      ]
-    },
-    {
-      "route": "another-updating??",
-      "allowedRoles": [
-        "owner"
+        "get"
       ]
     },
     {
