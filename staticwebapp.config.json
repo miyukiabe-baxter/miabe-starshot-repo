@@ -4,7 +4,33 @@
   },
   "routes": [
     {
-      "route": "/profile"
+      "route": "1",
+       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "2e",
+      "headers": {
+        "cache-control": "must-revalidate, max-age=15770000"
+    }
+    },    
+    {
+      "route": "3",
+      "methods": ["GET"],
+      "allowedRoles": ["registeredusers"]
+    },
+    {
+      "route": "4",
+      "methods": ["PUT", "POST", "PATCH", "DELETE"],
+      "allowedRoles": ["administrator"]
+    },
+    {
+      "route": "5",
+      "redirect": "/deals",
+      "statusCode": 301
+    },
+    {
+      "route": "6",
+      "redirect": "/.auth/logout"
     }
   ]
 }
