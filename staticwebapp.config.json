@@ -66,6 +66,9 @@
       "route": "/specials",
       "redirect": "/deals",
       "statusCode": 301
+    },
+    {
+      "route": "test"
     }
   ],
   "navigationFallback": {
