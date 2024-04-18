@@ -22,7 +22,7 @@
       ]
     },
     {
-      "route": "/api/*",
+      "route": "/api/test*",
       "allowedRoles": [
         "authenticated"
       ]
