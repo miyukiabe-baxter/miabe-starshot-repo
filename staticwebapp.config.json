@@ -7,13 +7,6 @@
       "route": "test"
     },
     {
-      "route": "test2",
-      "methods": [
-        "get"
-      ],
-      "rewrite": "/123"
-    },
-    {
       "route": "test3",
       "allowedRoles": [
         "admin"
