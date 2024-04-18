@@ -1,16 +1,5 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  },
-  "routes": [
-    {
-      "route": "test"
-    },
-    {
-      "route": "test3",
-      "allowedRoles": [
-        "admin"
-      ]
-    }
-  ]
+  }
 }
