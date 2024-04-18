@@ -1,12 +1,6 @@
 {
   "routes": [
     {
-      "route": "/profile-test",
-      "allowedRoles": [
-        "authenticated"
-      ]
-    },
-    {
       "route": "/admin/index.html",
       "allowedRoles": [
         "administrator"
