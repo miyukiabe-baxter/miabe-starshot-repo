@@ -12,6 +12,12 @@
         "get"
       ],
       "rewrite": "/123"
+    },
+    {
+      "route": "test3",
+      "allowedRoles": [
+        "admin"
+      ]
     }
   ]
 }
