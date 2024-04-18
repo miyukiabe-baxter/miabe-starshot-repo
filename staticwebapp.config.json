@@ -1,11 +1,16 @@
-{  "routes": [
+{
+  "routes": [
     {
-      "route": "/profile*",
-      "allowedRoles": ["authenticated"]
+      "route": "/profile-test",
+      "allowedRoles": [
+        "authenticated"
+      ]
     },
     {
       "route": "/admin/index.html",
-      "allowedRoles": ["administrator"]
+      "allowedRoles": [
+        "administrator"
+      ]
     },
     {
       "route": "/images/*",
@@ -15,21 +20,37 @@
     },
     {
       "route": "/api/*",
-      "methods": ["GET"],
-      "allowedRoles": ["registeredusers"]
+      "methods": [
+        "GET"
+      ],
+      "allowedRoles": [
+        "registeredusers"
+      ]
     },
     {
       "route": "/api/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE"],
-      "allowedRoles": ["administrator"]
+      "methods": [
+        "PUT",
+        "POST",
+        "PATCH",
+        "DELETE"
+      ],
+      "allowedRoles": [
+        "administrator"
+      ]
     },
     {
       "route": "/api/*",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": [
+        "authenticated"
+      ]
     },
     {
       "route": "/customers/contoso*",
-      "allowedRoles": ["administrator", "customers_contoso"]
+      "allowedRoles": [
+        "administrator",
+        "customers_contoso"
+      ]
     },
     {
       "route": "/login",
@@ -53,7 +74,7 @@
       "statusCode": 301
     }
   ],
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    }
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
 }
